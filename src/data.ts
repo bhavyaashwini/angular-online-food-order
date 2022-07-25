@@ -3,7 +3,7 @@ import {Food} from './app/shared/models/food';
 export const sample_foods: Food[]= [
   {
       id:'1',
-      name:'chicken soup',
+      name:'chicken',
       price:11,
       cookTime:'40-50',
       favorite: false,
@@ -14,7 +14,7 @@ export const sample_foods: Food[]= [
   },
   {
     id:'2',
-    name:'chicken soup',
+    name:'soup',
     price:11,
     cookTime:'40-50',
     favorite: false,
@@ -25,7 +25,7 @@ export const sample_foods: Food[]= [
 },
 {
     id:'3',
-    name:'chicken soup',
+    name:'soup',
     price:11,
     cookTime:'40-50',
     favorite: false,
@@ -36,7 +36,7 @@ export const sample_foods: Food[]= [
 },
 {
     id:'4',
-    name:'chicken soup',
+    name:'pizza',
     price:11,
     cookTime:'40-50',
     favorite: false,
@@ -47,7 +47,7 @@ export const sample_foods: Food[]= [
 },
 {
     id:'5',
-    name:'chicken soup',
+    name:'mixed',
     price:11,
     cookTime:'40-50',
     favorite: false,
@@ -56,5 +56,6 @@ export const sample_foods: Food[]= [
     imageUrl:'assets/food-5.jpeg',
     tags:['SlowFood','Soup'],
 },
+
   
 ]
