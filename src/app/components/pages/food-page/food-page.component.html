@@ -1,5 +1,5 @@
 <div class="container">
-    <img [src]="food.imageUrl" alt="food.name"/>
+    <img [src]="food.imageUrl" [alt]="food.name"/>
 
     <div class="details">
         <div class="header">
@@ -34,7 +34,7 @@
             <span>{{food.price | currency}}</span>
         </div>
 
-        <button>Add To Cart</button>
+        <button (click)="addToCart()">Add To Cart</button>
 
     </div>
 </div>
