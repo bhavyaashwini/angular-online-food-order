@@ -31,8 +31,7 @@ private cartSubject: BehaviorSubject<Cart>= new BehaviorSubject(this.cart);
     cartItem.price=quantity * cartItem.food.price;
     this.setCartToLocalStorage();
   }
-
-  clearCart(){
+clearCart(){
     this.cart= new Cart();
     this.setCartToLocalStorage();
   }
@@ -49,5 +48,8 @@ private cartSubject: BehaviorSubject<Cart>= new BehaviorSubject(this.cart);
   private getCartFromLocalStoarge():Cart{
     const cartJson = localStorage.getItem('Cart');
     return cartJson? JSON.parse(cartJson):new Cart();
+  }
+  newdev(){
+    
   }
 }
