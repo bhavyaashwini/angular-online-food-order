@@ -21,7 +21,7 @@ export const sample_foods: Food[]= [
     origins:['india','asia'],
     stars: 3.0,
     imageUrl:'assets/food-2.jpeg',
-    tags:['SlowFood','Soup'],
+    tags:['SlowFood','Soup','Lunch'],
 },
 {
     id:'3',
@@ -32,7 +32,7 @@ export const sample_foods: Food[]= [
     origins:['india','asia'],
     stars: 3.0,
     imageUrl:'assets/food-3.jpeg',
-    tags:['SlowFood','Soup'],
+    tags:['SlowFood','Soup','FastFood','Fry'],
 },
 {
     id:'4',
@@ -43,7 +43,7 @@ export const sample_foods: Food[]= [
     origins:['india','asia'],
     stars: 3.0,
     imageUrl:'assets/food-4.jpeg',
-    tags:['SlowFood','Soup'],
+    tags:['SlowFood','Soup','Pizza'],
 },
 {
     id:'5',
@@ -54,7 +54,7 @@ export const sample_foods: Food[]= [
     origins:['india','asia'],
     stars: 3.0,
     imageUrl:'assets/food-5.jpeg',
-    tags:['SlowFood','Soup'],
+    tags:['SlowFood','Soup','Hamburger'],
 },
 
   
